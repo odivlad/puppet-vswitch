@@ -1,8 +1,6 @@
 # vswitch params
 #
 class vswitch::params {
-  include ::openstacklib::defaults
-
   if versioncmp($::puppetversion, '4.0.0') < 0 and versioncmp($::puppetversion, '3.6.1') >= 0 {
     Package<| tag == 'openvswitch' |> {
       allow_virtual => true,
