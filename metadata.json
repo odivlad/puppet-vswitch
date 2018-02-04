@@ -7,7 +7,7 @@
     ],
     "issues_url": "https://bugs.launchpad.net/puppet-vswitch",
     "license": "Apache-2.0",
-    "name": "openstack-vswitch",
+    "name": "odivlad-vswitch",
     "operatingsystem_support": [
         {
             "operatingsystem": "Fedora",
